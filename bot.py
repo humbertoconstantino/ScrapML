@@ -3,7 +3,7 @@ from selenium.webdriver.common.keys import Keys
 from time import sleep
 from selenium.webdriver.chrome.options import Options
 import os
-
+#oi
 product = os.environ.get('PRODUTO')
 chrome_options = Options()
 chrome_options.binary_location = os.environ.get('GOOGLE_CHROME_BIN')
