@@ -6,7 +6,7 @@ import os
 #oi
 product = os.environ.get('PRODUTO')
 chrome_options = Options()
-chrome_options.binary_location = os.environ.get('GOOGLE_CHROME_BIN')
+chrome_options.binary_location = os.environ.get('GOOGLE_CHROME_BIN2')
 caminho_chromedriver = os.environ.get('CHROMEDRIVER_PATH')
 chrome_options.add_argument('--headless')
 chrome_options.add_argument('--disable-dev-shm-usage')
